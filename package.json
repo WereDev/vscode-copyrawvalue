@@ -4,12 +4,18 @@
 	"description": "Copies unescaped value in Run - Variables.",
 	"version": "1.0.0",
 	"publisher": "weredev",
-	"icon": "icon.png",
+	"license": "MIT",
+	"icon": "resources/icon.png",
 	"engines": {
 		"vscode": "^1.51.0"
 	},
 	"categories": [
+		"Debuggers",
 		"Other"
+	],
+	"keywords": [
+		"Copy Value",
+		"Copy Raw Value"
 	],
 	"activationEvents": [
 		"onCommand:variables.copyraw"
@@ -55,5 +61,10 @@
 		"vscode-debugprotocol": "^1.43.0",
 		"vscode-test": "^1.4.1"
 	},
-	"dependencies": {}
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/WereDev/vscode-copyrawvalue.git"
+	},
+	"homepage": "https://github.com/formulahendry/vscode-dotnet-test-explorer/blob/master/README.md"
 }
